@@ -1,0 +1,72 @@
+{
+  "web": {
+    "name"    : "read the material design",
+    "url"     : "",
+    "keywords": ""
+  },
+  "pages": {
+    "index": {
+      "path" : "/",
+      "title": "",
+      "description": "",
+      "category"   : "",
+      "original"   : ""
+    },
+    "introduction": {
+      "path" : "/material-design/introduction.html",
+      "title": "Introduction",
+      "description": "",
+      "category"   : "Material design",
+      "original"   : "https://www.google.com/design/spec/material-design/introduction.html"
+    },
+    "environment": {
+      "path" : "/what-is-material/environment.html",
+      "title": "Environment",
+      "description": "",
+      "category"   : "What is material?",
+      "original"   : "https://www.google.com/design/spec/what-is-material/environment.html"
+    },
+    "material_properties": {
+      "path" : "/what-is-material/material-properties.html",
+      "title": "Material properties",
+      "description": "",
+      "category"   : "What is material?",
+      "original"   : "https://www.google.com/design/spec/what-is-material/material-properties.html"
+    },
+    "elevation_and_shadows": {
+      "path" : "/what-is-material/elevation-shadows.html",
+      "title": "Elevation and shadows",
+      "description": "",
+      "category"   : "What is material?",
+      "original"   : "https://www.google.com/design/spec/what-is-material/elevation-shadows.html"
+    },
+    "authentic_motion": {
+      "path" : "/animation/authentic-motion.html",
+      "title": "Authentic motion",
+      "description": "",
+      "category"   : "Animation",
+      "original"   : "https://www.google.com/design/spec/animation/authentic-motion.html"
+    },
+    "responsive_interaction": {
+      "path" : "/animation/responsive-interaction.html",
+      "title": "Responsive interaction",
+      "description": "",
+      "category"   : "Animation",
+      "original"   : "https://www.google.com/design/spec/animation/responsive-interaction.html"
+    },
+    "meaningful_transitions": {
+      "path" : "/animation/meaningful-transitions.html",
+      "title": "Meaningful transitions",
+      "description": "",
+      "category"   : "Animation",
+      "original"   : "https://www.google.com/design/spec/animation/meaningful-transitions.html"
+    },
+    "delightful_details": {
+      "path" : "/animation/delightful-details.html",
+      "title": "Delightful details",
+      "description": "",
+      "category"   : "Animation",
+      "original"   : "https://www.google.com/design/spec/animation/delightful-details.html"
+    }
+  }
+}

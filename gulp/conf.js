@@ -55,9 +55,9 @@ module.exports.jade = {
   dest: `${DIR.DEST}${DIR.PATH}`,
   opts: {
     pretty: true
-  }
+  },
+  data: `../../${DIR.SRC}/data.json`
 };
-
 
 module.exports.sass = {
   src: [
@@ -102,14 +102,4 @@ module.exports.copy = {
 
 module.exports.clean = {
   path: [`${DIR.BUILD}${DIR.PATH}`]
-};
-
-module.exports.filelist = {
-  src: `${DIR.DEST}${DIR.PATH}/img/`,
-  option: {
-    flatten: true
-  },
-  entry: [
-    `common`
-  ]
 };

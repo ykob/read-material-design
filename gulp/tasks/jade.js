@@ -8,6 +8,9 @@ gulp.task('jade', () => {
     .pipe($.plumber({
       errorHandler: $.notify.onError('<%= error.message %>')
     }))
+    .pipe($.data(file => {
+      return require(conf.data);
+    }))
     .pipe($.jade(conf.opts))
     .pipe($.rename(path => {
       path.dirname = path.dirname.replace('html', '.');
