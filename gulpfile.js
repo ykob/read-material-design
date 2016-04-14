@@ -10,7 +10,6 @@ requireDir('./gulp/tasks');
 
 gulp.task('predefault', cb => {
   runSequence(
-    'filelist',
     ['jade', 'sass', 'watchify', 'copy'],
     'serve',
     cb
@@ -37,7 +36,6 @@ gulp.task('default', ['predefault'], () => {
 gulp.task('build', cb => {
   runSequence(
     'clean',
-    'filelist',
     ['jade', 'sass'],
     'replace',
     ['minify-css', 'browserify', 'imagemin'],
