@@ -1,2 +1,7 @@
 .l-gh {
+  &__page-title {
+    @include fontSize(24);
+    font-weight: 400;
+    letter-spacing: 0.15em;
+  }
 }
