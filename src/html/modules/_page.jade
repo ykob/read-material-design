@@ -1,0 +1,12 @@
+mixin page
+  doctype html
+  html(lang="ja")
+    head
+      include ./_head.jade
+    body.index
+      .l-page
+        include ./_gh.jade
+        .l-contents
+          block
+        include ./_gf.jade
+      script(src="js/main.js")
