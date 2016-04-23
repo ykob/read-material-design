@@ -1,0 +1,50 @@
+.c-page-list {
+  list-style: none;
+  margin: 2em 0;
+  padding: 0;
+  &__item {
+    margin-top: 1em;
+    a {
+      box-sizing: border-box;
+      display: inline-block;
+      position: relative;
+      z-index: 2;
+      color: $color-link;
+      text-decoration: none;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background-color: $color-link;
+        mix-blend-mode: difference;
+      }
+    }
+  }
+  //
+  //  Animation Init
+  //
+  &__item {
+    a {
+      &:after {
+        width: 0;
+        transition-duration: 0.2s;
+      }
+    }
+  }
+  //
+  //  Animation Set
+  //
+  &__item {
+    a {
+      &:hover {
+        &:after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
