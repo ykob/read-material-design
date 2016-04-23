@@ -3,9 +3,11 @@ include ./modules/_page.jade
 - var page = pages.index;
 
 +pageLayout
+  h2.c-page-title
+    |Index
   ul.c-page-list
     each page in pages
       if (page.path != '/')
         li.c-page-list__item
           a(href="#{page.path}")
-            |#{page.title}
+            |#{page.category} / #{page.title}
